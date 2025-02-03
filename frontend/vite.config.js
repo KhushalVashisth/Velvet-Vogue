@@ -9,8 +9,5 @@ export default defineConfig({
   proxy:{
     '/api':'http://localhost:4000'
   },
-  alias:{
-    "react-router-dom": require.resolve("react-router-dom"),
-  },npm run build
-
+ 
 })
