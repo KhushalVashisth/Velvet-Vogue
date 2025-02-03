@@ -11,7 +11,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "react-router-dom": "react-router-dom" // ✅ Correct way
+      "react-router-dom": "react-router-dom", // ✅ Correct way
+      "react-toastify": "react-toastify",
     }
   }
 })
