@@ -11,17 +11,13 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "react-router-dom": "react-router-dom",
+      'react-router-dom': 'react-router-dom', // ✅ Correct way
     },
   },
+  // Remove the external configuration
   build: {
     rollupOptions: {
-      external: ['react-toastify'], // Keep this if needed
-      output: {
-        globals: {
-          'react-toastify': 'ReactToastify', // Declare global if using externalized module
-        },
-      },
+      // Remove external: ['react-toastify']
     },
   },
 });
