@@ -11,7 +11,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['react-router-dom', 'react-toastify'], // ✅ Add react-toastify
+      external: ['react-router-dom', 'react-toastify','react-toastify/ReactToastify.css'], // ✅ Add react-toastify
     },
   },
 });
