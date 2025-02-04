@@ -16,7 +16,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['react-toastify'], // Keep this if needed
+      
       output: {
         globals: {
           'react-toastify': 'ReactToastify', // Declare global if using externalized module
