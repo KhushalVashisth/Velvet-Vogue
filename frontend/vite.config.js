@@ -17,7 +17,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'react-toastify', // Externalize the JS module
+        'react-toastify', 'react-toastify/dist/ReactToastify.css'// Externalize the JS module
       ],
     },
   },
