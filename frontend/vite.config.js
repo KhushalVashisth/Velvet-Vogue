@@ -14,10 +14,9 @@ export default defineConfig({
       'react-router-dom': 'react-router-dom', // ✅ Correct way
     },
   },
-  // Remove the external configuration
   build: {
     rollupOptions: {
-      // Remove external: ['react-toastify']
+      external: ['react-toastify'],  // Add react-toastify to external
     },
   },
 });
