@@ -13,5 +13,8 @@ export default defineConfig({
     alias: {
       "react-router-dom": "react-router-dom" // ✅ Correct way
     }
+    rollupOptions: {
+      external: ['react-toastify']
+    }
   }
 })
