@@ -9,15 +9,7 @@ export default defineConfig({
       '/api': 'http://localhost:4000',
     },
   },
-  resolve: {
-    alias: {
-      'react-router-dom': 'react-router-dom', // ✅ Correct way
-    },
-  },
-  // Remove the external configuration
-  build: {
-    rollupOptions: {
-      // Remove external: ['react-toastify']
-    },
-  },
+  
+  
+  
 });
